@@ -1,15 +1,6 @@
 #b-responsive theme
-
-# SKIN
-skin/frontend/b-responsive/default              skin/frontend/b-responsive/default
-skin/frontend/enterprise/responsive             skin/frontend/enterprise/responsive
-
-# DESIGN
-app/design/frontend/b-responsive/default        app/design/frontend/b-responsive/default
-app/design/frontend/b-responsive/enterprise     app/design/frontend/b-responsive/enterprise
-
-# MODULE
-app/code/community/RedLightBlinking/Setup       app/code/community/RedLightBlinking/Setup
-
-# MODULE ACTIVATION FILE
-app/etc/modules/RedLightBlinking_Setup.xml      app/etc/modules/RedLightBlinking_Setup.xml
+app/code/community/RedLightBlinking         app/code/community/RedLightBlinking
+app/design/frontend/b-responsive            app/design/frontend/b-responsive
+app/etc/modules/RedLightBlinking_Setup.xml  app/etc/modules/RedLightBlinking_Setup.xml
+skin/frontend/b-responsive                  skin/frontend/b-responsive
+skin/frontend/enterprise/responsive         skin/frontend/enterprise/responsive

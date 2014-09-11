@@ -3,4 +3,3 @@ app/code/community/RedLightBlinking         app/code/community/RedLightBlinking
 app/design/frontend/b-responsive            app/design/frontend/b-responsive
 app/etc/modules/RedLightBlinking_Setup.xml  app/etc/modules/RedLightBlinking_Setup.xml
 skin/frontend/b-responsive                  skin/frontend/b-responsive
-skin/frontend/enterprise/responsive         skin/frontend/enterprise/responsive

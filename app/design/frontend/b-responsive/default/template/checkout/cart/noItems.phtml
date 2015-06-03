@@ -24,30 +24,13 @@
  * @license     http://www.magentocommerce.com/license/enterprise-edition
  */
 ?>
-<?php
-/**
- * Top menu for store
- *
- * @see Mage_Page_Block_Html_Topmenu
- */
-?>
-<?php $_menu = $this->getHtml('dropdown', 'dropdown-menu') ?>
-<?php if($_menu): ?>
-        <div class="navbar navbar-inverse navbar-static-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle left" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-		            <span class="icon-bar"></span>
-              </button>  
-            </div>
-            <div class="navbar-collapse collapse">
-		<ul class="nav navbar-nav">
-		    <?php echo $_menu ?>
-		</ul>
-            </div>
-          </div>
-        </div>
-<?php endif ?>
+<div class="cart-empty container">
+	<div class="page-title">
+	    <h1><?php echo $this->__('Shopping Cart is Empty') ?></h1>
+	</div>
+    <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
+    <?php echo $this->getChildHtml('checkout_cart_empty_widget'); ?>
+    <p><?php echo $this->__('You have no items in your shopping cart.') ?></p>
+    <p><?php echo $this->__('Click <a href="%s">here</a> to continue shopping.', $this->getContinueShoppingUrl()) ?></p>
+    <?php echo $this->getChildHtml('shopping.cart.table.after'); ?>
+</div>

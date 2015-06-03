@@ -1,4 +1,4 @@
-b-responsive v 1.2.0 
+b-responsive v 1.2.1
 ================
 
 Magento Responsive Theme built with Twitter Bootstrap v3
@@ -22,12 +22,16 @@ Configurable Product Slider Widget<br/>
 Mega Menu - exploded menu containing static blocks<br/>
 Fallback Theme support for b-resonsive package for CE and EE<br/>
 Tested for CE 1.9, EE 1.14 (no changes required)
+<p>1.2.1</p>
+Added missing components to modman installer<br/>
+Fixed bug to set as default theme<br/>
+Added install script for CMS Home Page demo<br/>
 <br/>
 Composer Support
 
 ================
 
-![alt tag](http://www.redlightblinking.com/wp-content/uploads/2013/12/boostrap-responsive.png)
+![alt tag](http://www.redlightblinking.com/wp-content/uploads/2014/10/b-responsive-showcase.png)
 
 ================
 
@@ -58,10 +62,9 @@ For more information about modman see [Colin Mollenhour's Github](https://github
 
 Currently compatiable (and tested) with:<br/>
 Magento Community 1.8, 1.9<br/>
+Magento Enterprise 1.13, 1.14<br/>
 IE 9.0, 10.0, 11.0<br/>
 Safari, Firefox, Chrome, Android and iOS<br/>
-
-Additional browsers, versions and community support coming soon...
 
 ================
 Built with Twitter Bootstrap v3 framework. See <a href="http://getbootstrap.com" target="_blank">getbootstrap.com</a> for more info and docs.
